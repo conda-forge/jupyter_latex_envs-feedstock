@@ -11,6 +11,18 @@ Summary: Jupyter nbextension providing some LaTeX environments for markdown cell
 
 
 
+Current build status
+====================
+
+Linux: [![Circle CI](https://circleci.com/gh/conda-forge/jupyter_latex_envs-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/jupyter_latex_envs-feedstock)
+OSX: [![TravisCI](https://travis-ci.org/conda-forge/jupyter_latex_envs-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/jupyter_latex_envs-feedstock)
+Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/jupyter_latex_envs-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/jupyter-latex-envs-feedstock/branch/master)
+
+Current release info
+====================
+Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/jupyter_latex_envs/badges/version.svg)](https://anaconda.org/conda-forge/jupyter_latex_envs)
+Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/jupyter_latex_envs/badges/downloads.svg)](https://anaconda.org/conda-forge/jupyter_latex_envs)
+
 Installing jupyter_latex_envs
 =============================
 
@@ -66,18 +78,6 @@ Terminology
 
 **conda-forge** - the place where the feedstock and smithy live and work to
                   produce the finished article (built conda distributions)
-
-Current build status
-====================
-
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/jupyter_latex_envs-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/jupyter_latex_envs-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/jupyter_latex_envs-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/jupyter_latex_envs-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/jupyter_latex_envs-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/jupyter-latex-envs-feedstock/branch/master)
-
-Current release info
-====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/jupyter_latex_envs/badges/version.svg)](https://anaconda.org/conda-forge/jupyter_latex_envs)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/jupyter_latex_envs/badges/downloads.svg)](https://anaconda.org/conda-forge/jupyter_latex_envs)
 
 
 Updating jupyter_latex_envs-feedstock
