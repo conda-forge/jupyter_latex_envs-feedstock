@@ -1,6 +1,6 @@
 {% set name = 'jupyter_latex_envs' %}
-{% set version = '1.3.7' %}
-{% set sha256 = 'e151c6905dd7b65996f5fe01de3056a07b7ff0361b01621985bc43228032f683' %}
+{% set version = '1.3.7.1' %}
+{% set sha256 = '2692bd963217324baa3873bd355afcc3053fd742df167085ebc4c627102291f1' %}
 
 package:
   name: {{ name }}
