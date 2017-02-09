@@ -1,6 +1,6 @@
 {% set name = 'jupyter_latex_envs' %}
-{% set version = '1.3.6' %}
-{% set sha256 = '5d189e612cf72a8cdb37d920538a2e38e826c0ab096eb01355195629399a445c' %}
+{% set version = '1.3.7' %}
+{% set sha256 = 'e151c6905dd7b65996f5fe01de3056a07b7ff0361b01621985bc43228032f683' %}
 
 package:
   name: {{ name }}
@@ -26,7 +26,7 @@ requirements:
     - nbconvert
     - notebook >=4.0
     - setuptools
-    - traitlets
+    - traitlets >=4.1
 
 test:
   imports:
