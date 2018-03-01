@@ -1,6 +1,6 @@
 {% set name = 'jupyter_latex_envs' %}
-{% set version = '1.4.0' %}
-{% set sha256 = 'c9fc29f46f4f14fac7304d8472aaf97d279c6989d264d86cf14046cefb22e35b' %}
+{% set version = "1.4.3" %}
+{% set sha256 = 'cd8a2fa4d82d00a1439b3ff50d8950e79951565432baa1c96db3301fa1cb650b' %}
 
 package:
   name: {{ name }}
@@ -12,7 +12,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 1
+  number: 0
   script: python setup.py install --single-version-externally-managed --record=record.txt
 
 requirements:
