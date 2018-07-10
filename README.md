@@ -14,14 +14,15 @@ Summary: Jupyter nbextension providing some LaTeX environments for markdown cell
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/jupyter_latex_envs-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/jupyter_latex_envs-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/jupyter_latex_envs-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/jupyter_latex_envs-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/jupyter_latex_envs-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/jupyter-latex-envs-feedstock/branch/master)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/jupyter_latex_envs-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/jupyter_latex_envs-feedstock)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/jupyter_latex_envs/badges/version.svg)](https://anaconda.org/conda-forge/jupyter_latex_envs)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/jupyter_latex_envs/badges/downloads.svg)](https://anaconda.org/conda-forge/jupyter_latex_envs)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-jupyter_latex_envs-green.svg)](https://anaconda.org/conda-forge/jupyter_latex_envs) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/jupyter_latex_envs.svg)](https://anaconda.org/conda-forge/jupyter_latex_envs) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/jupyter_latex_envs.svg)](https://anaconda.org/conda-forge/jupyter_latex_envs) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/jupyter_latex_envs.svg)](https://anaconda.org/conda-forge/jupyter_latex_envs) |
 
 Installing jupyter_latex_envs
 =============================
