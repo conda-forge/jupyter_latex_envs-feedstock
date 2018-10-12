@@ -3,7 +3,7 @@ About jupyter_latex_envs
 
 Home: https://github.com/jfbercher/jupyter_latex_envs
 
-Package license: BSD 3-clause
+Package license: BSD-3-Clause
 
 Feedstock license: BSD 3-Clause
 
