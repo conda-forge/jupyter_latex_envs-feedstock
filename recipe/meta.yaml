@@ -1,4 +1,4 @@
-{% set version = "1.4.4" %}
+{% set version = "1.4.6" %}
 
 package:
   name: jupyter_latex_envs
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/j/jupyter_latex_envs/jupyter_latex_envs-{{ version }}.tar.gz
-  sha256: b0a83e0cda2d33e61c4b2da94365d2de4dfcdc1ed67abdba3cbe390872cf5231
+  sha256: 070a31eb2dc488bba983915879a7c2939247bf5c3b669b398bdb36a9b5343872
 
 build:
   number: 1000
