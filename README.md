@@ -282,4 +282,5 @@ Feedstock Maintainers
 
 * [@jcb91](https://github.com/jcb91/)
 * [@jfbercher](https://github.com/jfbercher/)
+* [@xhochy](https://github.com/xhochy/)
 
