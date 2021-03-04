@@ -9,18 +9,16 @@ source:
   sha256: 070a31eb2dc488bba983915879a7c2939247bf5c3b669b398bdb36a9b5343872
 
 build:
-  number: 1001
+  noarch: python
+  number: 1002
   script: "{{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv"
 
 requirements:
-  build:
-    - python                                 # [build_platform != target_platform]
-    - cross-python_{{ target_platform }}     # [build_platform != target_platform]
   host:
-    - python
+    - python >=2.7
     - pip
   run:
-    - python
+    - python >=2.7
     - ipython
     - jupyter_contrib_core >=0.3
     - nbconvert
