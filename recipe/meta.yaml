@@ -5,20 +5,20 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/j/jupyter_latex_envs/jupyter_latex_envs-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/j/jupyter_latex_envs/jupyter_latex_envs-{{ version }}.tar.gz
   sha256: 070a31eb2dc488bba983915879a7c2939247bf5c3b669b398bdb36a9b5343872
 
 build:
   noarch: python
-  number: 1002
+  number: 1003
   script: "{{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv"
 
 requirements:
   host:
-    - python >=2.7
+    - python {{ python_min }}
     - pip
   run:
-    - python >=2.7
+    - python >={{ python_min }}
     - ipython
     - jupyter_contrib_core >=0.3
     - nbconvert
@@ -27,6 +27,8 @@ requirements:
     - traitlets >=4.1
 
 test:
+  requires:
+    - python {{ python_min }}
   imports:
     - latex_envs
     - latex_envs.latex_envs
